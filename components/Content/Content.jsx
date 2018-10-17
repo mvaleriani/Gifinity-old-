@@ -51,7 +51,7 @@ class Content extends React.Component{
                 let colIdx = (j % newProps.numCols);
                 this.gifCols[newProps.appTab][colIdx].push(oldGIFComp);
             }
-            
+            this.setState()
         }
         if (newProps.appTab !== this.props.appTab) {
             this.setState({ currentTab: newProps.appTab})
@@ -67,7 +67,7 @@ class Content extends React.Component{
                 this.compBucket[newProps.appTab].push(newGIFComp)
                 this.gifCols[newProps.appTab][(i % newProps.numCols)].push(newGIFComp);
             }
-            // this.setState()
+            this.setState()
         }
         //New search gifs received
         // if (newProps.searchGIFs.length > this.searchGIFComps.length) {
