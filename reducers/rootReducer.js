@@ -1,11 +1,11 @@
 import { combineReducers } from 'redux';
-import modal from './modalReducer';
+import ui from './uiReducer';
 import gifs from './gifReducer';
 
 
 
 const rootReducer =  combineReducers({
-  modal,
+  ui,
   gifs
 });
 
