@@ -69,17 +69,6 @@ class Content extends React.Component{
             }
             this.setState()
         }
-        //New search gifs received
-        // if (newProps.searchGIFs.length > this.searchGIFComps.length) {
-        //     let currLength = this.props.searchGIFs.length;
-        //     let newLength = newProps.searchGIFs.length;
-
-        //     for (let i = currLength; i < newLength; i++) {
-        //         let newGIFData = newProps.searchGIFs[i];
-        //         this.searchGIFComps.push(<GIFComp gifData={newGIFData} />)
-        //     }     
-        // }
-
     }
 
     render(){
